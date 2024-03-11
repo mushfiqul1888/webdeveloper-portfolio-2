@@ -46,12 +46,14 @@ header {
 
 /* main section styles */
 /* section intro styles */
-.section-intro{
+.section-intro {
     padding: 135px 250px 130px 220px;
 }
+
 .columns {
     display: flex;
 }
+
 .img-person-1 {
     width: 527.929px;
     height: 527.929px;
@@ -67,11 +69,142 @@ header {
     padding-bottom: 0;
     padding-top: 100px;
 }
-.main-description{
+
+.main-description {
     color: #444343;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     padding-top: 0px;
+    width: 416px;
 }
-/* main section styles */
+
+/* midle section styles */
+.midle-section {
+    padding-left: 50px;
+}
+
+.midle-section-title {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.midle-icons {
+    display: flex;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.icons {
+    padding-right: 80px;
+}
+
+.imges {
+    padding-left: 50px;
+}
+
+.icon-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.midle-description {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* main last section  */
+.last-section {
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    width: 1140px;
+    height: 300px;
+    margin: 130px 200px;
+}
+
+.last-section-div {
+    padding: 20px 0px 24px 64px;
+}
+
+.last-section-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 459px;
+
+}
+
+.last-section-button {
+    color: #F15B22;
+    text-align: center;
+    font-size: 15px;
+    margin: 15px 0px;
+    border-radius: 5px;
+    background: #FFF;
+    width: 130px;
+    height: 50px;
+    border: none;
+}
+
+/* footer section styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #151414;
+    width: 1600px;
+    height: 577px;
+}
+
+.footer-column {
+    padding: 130px 230px;
+}
+
+.column-1 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-description-email-cell {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 485px;
+}
+
+.footer-email>a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-icon>a {
+    padding-right: 10px;
+}
+.footer-column-2{
+    margin-right: 220px;
+}
+
+.column-2 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#input-email {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 325px;
+    height: 64px;
+    background-color: #151414;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 10px;
+}

@@ -3,18 +3,11 @@ body {
     font-family: "Work Sans", sans-serif;
 }
 
-/* .selection-primary {
-    display: flex;
-} */
 header {
     background-image: url('../images/banner/banner2.png');
     width: 1600px;
     height: 809px;
 }
-/* .header-main{
-    text-align: right;
-    padding: 130px 100px 24px 845px;
-} */
 
 .header-v {
     text-align: right;
@@ -28,7 +21,8 @@ header {
     width: 525px;
     padding: 0;
 }
-.header-description{
+
+.header-description {
     text-align: right;
     padding: 0px 130px 30px 0px;
 }
@@ -41,10 +35,43 @@ header {
     border: none;
     margin-right: 130px;
 }
-.header-v > button > a{
+
+.header-v>button>a {
     text-decoration: none;
     color: #FFF;
     text-align: right;
     font-size: 20px;
     font-weight: 600;
 }
+
+/* main section styles */
+/* section intro styles */
+.section-intro{
+    padding: 135px 250px 130px 220px;
+}
+.columns {
+    display: flex;
+}
+.img-person-1 {
+    width: 527.929px;
+    height: 527.929px;
+    /* padding: 139px 134px 0px 277px; */
+    padding-right: 140px;
+}
+
+.img-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+    padding-bottom: 0;
+    padding-top: 100px;
+}
+.main-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 0px;
+}
+/* main section styles */
